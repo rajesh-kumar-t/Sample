@@ -1,8 +1,10 @@
-Feature: To validate facebook login functionality
+@Login
 
-Scenario: To validate facebook login invalid username and valid password
+Feature: To check facebook login function using one scenario
 
-Given User is in Facebook login page
-When User enter invalid username and valid password
-And User clicks on login buttion
-Then User should be in invalid login page
+Scenario: To check login using invalid email and valid password
+
+Given User is currently in facebook login page
+When User enters invalid email and valid password
+And User clicks login button
+Then User should be landed in invalid login page
